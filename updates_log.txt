@@ -1,0 +1,31 @@
+-----------------------------------------------------------------
+10/30/11 15:08
+	folders/files created:
+	+page_parts/summaries
+	+page_parts/quizzes
+	+page_parts/file_main_copy.html
+	+page_parts/file_main_move.html
+	+page_parts/file_main_remove.html
+	+page_parts/file_name_conventions.php
+	+page_parts/template.html
+	+page_parts/quizzes/file_manip_quiz.html
+	+page_parts/summaries/file_manip_summary.html
+	+page_parts/summaries/file_name_conventions_summary.php
+	+css/content.css
+	
+	folders/files updated:
+	+page_parts/local_nav.html
+	+load_page.php
+	+welcome.php
+	
+	folders/files deleted:
+-----------------------------------------------------------------
+	
+-----------------------------------------------------------------
+10/30/11 17:47
+	folders/files created:
+	
+	folders/files updated:
+	+css/index_css.css
+	
+	folders/files deleted:

@@ -1,0 +1,18 @@
+#content_target{
+	overflow: auto;
+}
+
+#content_target_inner{
+
+}
+
+#pageNav, #pageNav > a{
+	color:blue;
+	text-align: center;
+	margin-top: -10px; /* This is a temp fix b/c the links were going to close to the
+	bottom */
+}
+
+#pageNav .pageNavSummary{
+	margin: 2px; /* This is a temp fix b/c the links were going to close to the bottom */
+}
