@@ -11,7 +11,7 @@
 	<body onload="stripATags()">
 		<div id='wrapper'>
 			<!-- Bring in the header -->
-			<?php include_once('page_parts/header/header.php') ?>
+			<?php include_once('page_parts/header.php') ?>
 		
 			<div id='main'><div id='main_wrapper'>		
 				<div id='content'>
