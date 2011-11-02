@@ -5,6 +5,6 @@
 						<li>|</li>
 						<li><a href='#'>my account</a></li>
 						<li>|</li>
-						<li><a href='#'>about us</a></li>
+						<li><a href='#' onclick="swapMain('page_parts/tutorials/template2.php')">about us</a></li>
 					</ul>
 				</div>
