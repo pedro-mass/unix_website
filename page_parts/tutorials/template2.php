@@ -17,8 +17,7 @@
 								Whatever you want to say
 							</p>
 							
-							<!-- Had to use inline style because CSS couldnt find element and class-->
-							<div id="pageNav" class="pageNavSummary" style="margin:2px;">
+							<div id="pageNav" class="pageNavSummary">
 								<a href='unix.php?page=page_parts/tutorials/template.php' onclick="swapMain('page_parts/tutorials/template.php');">Previous</a> 
 								| 
 								<a href='unix.php?page=page_parts/tutorials/template.php' onclick="swapMain('page_parts/tutorials/template.php');">Next</a>
