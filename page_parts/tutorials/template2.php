@@ -1,3 +1,5 @@
+<!-- Still need to think this one through and figure how we want this to behave -->
+
 <div id='content_target_inner'>
 	
 						<div id="content_terminal">
