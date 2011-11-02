@@ -42,9 +42,9 @@
 							Answer: rm *.txt
 
 							<div id="pageNav">
-								<a href='unix.php?page=page_parts/file_manip_move.php' onclick="swapMain('page_parts/file_manip_move.php');">Previous </a> 
+								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_move.php');">Previous </a> 
 								 |  
-								<a href='unix.php?page=page_parts/summaries/file_manip_summary.php' onclick="swapMain('page_parts/summaries/file_manip_summary.php');"> Next</a>
+								<a href='unix.php?page=page_parts/tutorials/summaries/file_manip_summary.php' onclick="swapMain('page_parts/tutorials/summaries/file_manip_summary.php');"> Next</a>
 							</div>
 						</p>
 					</div>

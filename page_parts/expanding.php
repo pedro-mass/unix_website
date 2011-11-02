@@ -31,9 +31,9 @@
 						
 						<!-- Had to use inline style because CSS couldnt find element and class-->
 						<div id="pageNav" class="pageNavSummary" style="margin:2px;">
-							<a href='unix.php?page=page_parts/summaries/file_manip_summary.php' onclick="swapMain('page_parts/summaries/file_manip_summary.php');">Previous</a> 
+							<a href='unix.php?page=page_parts/tutorials/' onclick="swapMain('page_parts/tutorials/summaries/file_manip_summary.php');">Previous</a> 
 							| 
-							<a href='unix.php?page=page_parts/quizzes/file_manip_quiz.php' onclick="addMultiple('page_parts/quizzes/file_manip_quiz.php','page_parts/side_bar_quizzes.php');">Quiz Time!</a>
+							<a href='unix.php?page=page_parts/quizzes/beginner/file_manip_quiz.php' onclick="addMultiple('page_parts/quizzes/beginner/file_manip_quiz.php','page_parts/side_bar_quizzes.php');">Quiz Time!</a>
 			
 						</div>
 					</div

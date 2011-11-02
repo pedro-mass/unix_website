@@ -57,4 +57,3 @@ extension which may alert you to the contents of the file.
 For example, most javascript files end with .js but are not required to.
 </p>
 
-<?php include('summaries/file_name_conventions_summary.php') ?>
