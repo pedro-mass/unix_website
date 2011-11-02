@@ -1,4 +1,4 @@
-<?php include_once('page_parts/doctype.php') ?>
+<?php include_once('page_parts/header/doctype.php') ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>	
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -13,12 +13,12 @@
 	<body>
 		<div id='wrapper'>
 			<!-- Bring in the header -->
-			<?php include_once('page_parts/header.php') ?>
+			<?php include_once('page_parts/header/header.php') ?>
 		
 			<div id='main'><div id='main_wrapper'>		
 				<div id='content'>
 					<!-- Bring in the local nav -->
-					<?php include_once('page_parts/local_nav.php') ?>
+					<?php include_once('page_parts/nav/local_nav.php') ?>
 
 					<div id='content_target'>
 						<!-- Bring in the home landing page -->
