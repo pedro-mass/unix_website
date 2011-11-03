@@ -1,3 +1,6 @@
+// store a listing of our main pages used for processing
+var basePages = new Array("WELCOME.PHP","UNIX.PHP");
+
 function stripATags(){
 	// get all a tags
 	var nodes = document.getElementsByTagName("A");
@@ -5,7 +8,7 @@ function stripATags(){
 	// loop thru them
 	for(var i = 0, aLen = nodes.length; i < aLen;i++){
 		var iNode = nodes[i];
-	
+		
 		// check if one of the base pages: welcome.php or unix.php
 		if (isBasePage(iNode.href)){
 			// since it is, strip the hrefs
@@ -16,10 +19,7 @@ function stripATags(){
 
 // Checks to see if the base page was passed in
 // which is welcome.php or unix.php
-function isBasePage(href){
-	// store the pages we want to check
-	var basePages = new Array("WELCOME.PHP","UNIX.PHP");
-	
+function isBasePage(href){	
 	// store the result
 	var lresult = false;
 	
