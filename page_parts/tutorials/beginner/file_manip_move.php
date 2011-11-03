@@ -1,4 +1,4 @@
-<div id='content_target_inner'>
+
 						<h2>File Manipulation</h2>
 						<h3>Move (mv)</h3>
 
@@ -27,4 +27,4 @@
 								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_remove.php');">Next</a>
 							</div>
 						</p>
-					</div>
+					

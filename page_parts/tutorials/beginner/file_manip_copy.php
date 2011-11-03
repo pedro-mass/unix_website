@@ -1,7 +1,15 @@
-<div id='content_target_inner'>
+
 						<h2>File Manipulation</h2>
 						<h3>Copy (cp)</h3>
 
+						<div id="open_terminal" >
+							<A HREF="#" onclick="termOpen()">open terminal</A>
+							<A HREF="#" onclick="termClose()">close terminal</A>
+						</div>
+
+						<DIV ID="termDiv"></DIV>
+						
+						
 						<p>
 							The command for copying files and directories are one and the same. that command 
 							is:<br /><br />
@@ -26,4 +34,4 @@
 								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_move.php');">Next</a>
 							</div>
 						</p>
-					</div>
+					

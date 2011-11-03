@@ -1,9 +1,7 @@
 <script type='text/javascript' src="js/tab_manip.js"></script>
-		<script type='text/javascript' src="js/ajax.js"></script>
 		<script type='text/javascript' src="js/expand_li.js"></script>
-		<script type='text/javascript' src="js/load_term.js"></script>
 		<script type='text/javascript' src="js/strip_ahref.js"></script>
-		
+		<script type='text/javascript' src="js/ajax.js"></script>
 		
 		
 		<!-- Terminal js files -->

@@ -36,7 +36,7 @@ body {
 	margin: 0 auto;
 	margin-top: 2em;
 	width: 800px;
-	height: 700px;
+	height: 740px;
 }
 
 #logo {
@@ -93,7 +93,7 @@ body {
 	background-color: rgba(45,45,45,1.0);
 	margin-top: 65px;
 	width: 800px;
-	height: 635px;
+	height: 675px;
 	box-shadow: inset 3px -3px 3px rgba(0,0,0,0.8);
 	
 	overflow: hidden;
@@ -102,7 +102,7 @@ body {
 #main_wrapper {
 	position: absolute;
 	width: 800px;
-	height: 635px;
+	height: 675px;
 	box-shadow: inset -3px -3px 3px rgba(0,0,0,0.8);
 }
 

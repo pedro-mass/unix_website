@@ -1,4 +1,4 @@
-<div id='content_target_inner'>
+
 						<h2>File Manipulation Summary:</h2>
 						
 						<div style="margin:auto;">
@@ -33,4 +33,4 @@
 							<a href='unix.php?page=page_parts/expanding.php' onclick="swapMain('page_parts/expanding.php');">Next</a>
 			
 						</div>
-					</div>
+					

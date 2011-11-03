@@ -1,24 +1,23 @@
 // http://www.switchonthecode.com/tutorials/simple-ajax-php-and-javascript
 
-function addMultiple(mainContentPage, sidebarTab){
+function swapMultiple(mainContentPage, sidebarTab){
 	swapMain(mainContentPage);
-	makeRequest(sidebarTab,'sidebar_content', false);
+	swapElem(sidebarTab,'sidebar_content');
 }
 
 function swapMain(pageName){
-	makeRequest(pageName, 'content_target', false);
+	swapElem(pageName, 'content_target_inner');
 } 
 
 // makes a request to load the specified page in the specified elementId.
-// if lterm is true, then we also load in the terminal
-function makeRequest(pageName, elementId, lterm){
+function swapElem(pageName, elementId){
   var xmlHttp = getXMLHttp();
   
   xmlHttp.onreadystatechange = function()
   {
     if(xmlHttp.readyState == 4)
     {
-      handleResponse(xmlHttp.responseText, elementId, lterm);
+      handleResponse(xmlHttp.responseText, elementId);
     }
   }
 
@@ -62,14 +61,8 @@ function getXMLHttp(){
 }
 
 // Loads the response from the server in the specified elementId
-// If lterm is true, it also loads in the terminal
 // Also strips out the a href 
-function handleResponse(response, elementId, lterm){
+function handleResponse(response, elementId){
   document.getElementById(elementId).innerHTML = response;
-  
-  if (lterm){
-	termOpen();
-  }
-  
   stripATags();
 }

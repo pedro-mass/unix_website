@@ -1,4 +1,4 @@
-<div id='content_target_inner'>
+
 						<h2>File Manipulation</h2>
 						<h3>Remove (rm/rmdir)</h3>
 
@@ -47,4 +47,4 @@
 								<a href='unix.php?page=page_parts/tutorials/summaries/file_manip_summary.php' onclick="swapMain('page_parts/tutorials/summaries/file_manip_summary.php');"> Next</a>
 							</div>
 						</p>
-					</div>
+					

@@ -1,5 +1,24 @@
-#content_target{
+#content {
+	margin: 0 auto;
+	margin-top: 2em;
+	height: 600px;
+	width: 700px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+}
+
+#content_target {
+	position: absolute;
+	z-index: 4;
+	
 	overflow: auto;
+	background-color: rgba(190,190,190,1.0);
+	height: 580px;
+	width: 700px;
+}
+
+
+#content_target{
+	
 }
 
 #content_target_inner{
