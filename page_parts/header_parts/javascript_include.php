@@ -2,6 +2,7 @@
 		<script type='text/javascript' src="js/expand_li.js"></script>
 		<script type='text/javascript' src="js/strip_ahref.js"></script>
 		<script type='text/javascript' src="js/ajax.js"></script>
+		<script type='text/javascript' src="js/page_setup.js"></script>
 		
 		
 		<!-- Terminal js files -->

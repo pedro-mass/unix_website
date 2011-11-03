@@ -8,7 +8,7 @@
 		<!-- Bring in the javascript links -->
 		<?php include_once('page_parts/header_parts/javascript_include.php'); ?>
 	</head>
-	<body onload="stripATags()">
+	<body onload="page_init()">
 		<div id='wrapper'>
 			<!-- Bring in the header -->
 			<?php include_once('page_parts/header.php') ?>
@@ -20,9 +20,10 @@
 
 					<div id='content_target'>						
 						<!-- Bring in the terminal -->
-						<div id="terminal">
-							<?php include('page_parts/terminal.php')?>
-						</div>
+						<!-- accomplished in onload of the body, via a page_init()
+							which is located in page_setup.js
+						-->
+						<div id="terminal"></div>
 						
 						<!-- Bring in the home landing page -->
 						<div id='content_target_inner'>
