@@ -1,14 +1,6 @@
 
 						<h2>File Manipulation</h2>
-						<h3>Copy (cp)</h3>
-
-						<div id="open_terminal" >
-							<A HREF="#" onclick="termOpen()">open terminal</A>
-							<A HREF="#" onclick="termClose()">close terminal</A>
-						</div>
-
-						<DIV ID="termDiv"></DIV>
-						
+						<h3>Copy (cp)</h3>						
 						
 						<p>
 							The command for copying files and directories are one and the same. that command 
