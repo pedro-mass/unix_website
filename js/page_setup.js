@@ -45,7 +45,8 @@ function includeTerminal(){
 	// Show the terminal
 	// Terminal class sets viaible to 1, but we want to change
 	// The display rule as well
-	document.getElementById(terminalID).style = "display: block;"
+	// Changing display does not work, causes other things to break
+	// document.getElementById(terminalID).style = "display: block;"
 }
 
 /*
@@ -64,5 +65,6 @@ function removeTerminal(){
 	// Show the terminal
 	// Terminal class sets viaible to 1, but we want to change
 	// The display rule as well
-	document.getElementById(terminalID).style = "display: block;"
+	// Changing display does not work, causes other things to break
+	// document.getElementById(terminalID).style = "display: block;"
 }

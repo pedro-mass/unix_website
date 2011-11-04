@@ -23,7 +23,7 @@
 						<!-- accomplished in onload of the body, via a page_init()
 							which is located in page_setup.js
 						-->
-						<div id="terminal"></div>
+						<!-- <div id="terminal"></div> -->
 						
 						<!-- Bring in the home landing page -->
 						<div id='content_target_inner'>
@@ -35,6 +35,12 @@
 								include_once($pageName) 
 							?>
 						</div>
+						
+						<!-- Bring in the terminal -->
+						<!-- accomplished in onload of the body, via a page_init()
+							which is located in page_setup.js
+						-->
+						<div id="terminal"></div>
 					</div>					
 				</div>
 				

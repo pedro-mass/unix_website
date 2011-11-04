@@ -68,11 +68,11 @@ function flipTermLink(linkObject){
 		// change to different page
 		if (val == 1){
 			// Swap for page steps
-			swapElem(curPageSteps, mainContentDiv);
+			swapElem(curPageSteps, mainContentDivID);
 			
 		} else if (val == 0){
 			// swap for tutorialized page
-			swapElem(curPage, mainContentDiv);
+			swapElem(curPage, mainContentDivID);
 		}
 	}
 }
