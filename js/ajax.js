@@ -1,11 +1,11 @@
 // http://www.switchonthecode.com/tutorials/simple-ajax-php-and-javascript
 
 // store the name of the side bar div
-var sidebarDiv = "sidebar_content";
+var sidebarDivID = "sidebar_content";
 // store the name of the main content div
-var mainContentDiv = "content_target_inner";
+var mainContentDivID = "content_target_inner";
 // stores the terminal link's id
-var termLink = "onOffTermLink";
+var termLinkID = "onOffTermLink";
 
 /*
  * Swaps the "content_target_inner" div with the mainContentPage
@@ -17,9 +17,8 @@ function swapMain(pageName){
 		removeTerminal();	
 	}
 	
-	swapElem(pageName, mainContentDiv);
+	swapElem(pageName, mainContentDivID);
 	
-	// update page vars
 	updatePageVars(pageName, "");
 }
 
@@ -29,7 +28,7 @@ function swapMain(pageName){
  */
 function swapMultiple(mainContentPage, sidebarTab){
 	swapMain(mainContentPage);
-	swapElem(sidebarTab, sidebarDiv);
+	swapElem(sidebarTab, sidebarDivID);
 }
 
 /*
@@ -54,7 +53,7 @@ function swapMainTerm(pageName, pageStepsName){
 	}
 	
 	// swap the page
-	swapElem(page, mainContentDiv);
+	swapElem(page, mainContentDivID);
 	
 	// update page vars
 	updatePageVars(pageName, pageStepsName);
@@ -66,7 +65,7 @@ function swapMainTerm(pageName, pageStepsName){
  */
 function swapMultipleTerm(mainContentPage, pageStepsName, sidebarTab){
 	swapMainTerm(mainContentPage, pageStepsName);
-	swapElem(sidebarTab, sidebarDiv);
+	swapElem(sidebarTab, sidebarDivID);
 }
 
 
