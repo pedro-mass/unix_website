@@ -3,6 +3,8 @@
 		<script type='text/javascript' src="js/strip_ahref.js"></script>
 		<script type='text/javascript' src="js/ajax.js"></script>
 		<script type='text/javascript' src="js/page_setup.js"></script>
+		<script type='text/javascript' src="js/content.js"></script>
+		<script type='text/javascript' src="js/flip_terminal.js"></script>
 		
 		
 		<!-- Terminal js files -->

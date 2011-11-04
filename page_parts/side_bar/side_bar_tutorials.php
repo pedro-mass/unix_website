@@ -4,7 +4,7 @@
 									<li><a href='#'>File System</a></li>
 									<li><a href='#'>Shell Nav</a></li>
 									<li><a href='#'>File names</a></li>
-									<li><a href='#' onclick="swapMain('page_parts/tutorials/beginner/file_manip_copy.php');">File manip</a></li>
+									<li><a href='#' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php', 'page_parts/tutorials/beginner/file_manip_steps.php');">File manip</a></li>
 									<li><a href='#'>Getting help</a></li>
 								</ul>
 							</li>

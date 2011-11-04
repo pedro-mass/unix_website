@@ -1,13 +1,82 @@
 // http://www.switchonthecode.com/tutorials/simple-ajax-php-and-javascript
 
-function swapMultiple(mainContentPage, sidebarTab){
-	swapMain(mainContentPage);
-	swapElem(sidebarTab,'sidebar_content');
+// store the name of the side bar div
+var sidebarDiv = "sidebar_content";
+// store the name of the main content div
+var mainContentDiv = "content_target_inner";
+// stores the terminal link's id
+var termLink = "onOffTermLink";
+
+/*
+ * Swaps the "content_target_inner" div with the mainContentPage
+ */
+function swapMain(pageName){
+	// remove the terminal parts, if not there already
+	if (terminalLinkExists()){
+		// remove terminal
+		removeTerminal();	
+	}
+	
+	swapElem(pageName, mainContentDiv);
+	
+	// update page vars
+	updatePageVars(pageName, "");
 }
 
-function swapMain(pageName){
-	swapElem(pageName, 'content_target_inner');
-} 
+/*
+ * Swaps the "content_target_inner" div with the mainContentPage
+ * Swaps teh "sidebar_content" div
+ */
+function swapMultiple(mainContentPage, sidebarTab){
+	swapMain(mainContentPage);
+	swapElem(sidebarTab, sidebarDiv);
+}
+
+/*
+ * Swaps the "content_target_inner" div with the mainContentPage
+ */
+function swapMainTerm(pageName, pageStepsName){
+	// include the terminal parts, if not there already
+	if (!terminalLinkExists()){
+		// include terminal
+		includeTerminal();	
+	}
+	
+	// store the page to swap
+	var page = pageName;
+	
+	// check if terminal is on
+	if (isTerminalShowing()){
+		// change the page to swap
+		page = pageStepsName
+	} else {
+		
+	}
+	
+	// swap the page
+	swapElem(page, mainContentDiv);
+	
+	// update page vars
+	updatePageVars(pageName, pageStepsName);
+}
+
+/*
+ * Swaps the "content_target_inner" div with the mainContentPage
+ * Swaps teh "sidebar_content" div
+ */
+function swapMultipleTerm(mainContentPage, pageStepsName, sidebarTab){
+	swapMainTerm(mainContentPage, pageStepsName);
+	swapElem(sidebarTab, sidebarDiv);
+}
+
+
+
+
+
+
+ 
+
+
 
 // makes a request to load the specified page in the specified elementId.
 function swapElem(pageName, elementId){
