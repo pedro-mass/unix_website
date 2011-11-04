@@ -3,7 +3,10 @@
  */
 
 // Store the name of the terminal div
-var terminalDivName = "terminal";
+var terminalDivID = "terminal";
+
+// store the id div of the actual terminal
+var terminalID = "termDiv";
 
 // store the start page
 var startPage = "page_parts/home/home.php";
@@ -37,7 +40,12 @@ function updatePageVars(currentPage, currentPageSteps){
  * Adds the terminal parts
  */
 function includeTerminal(){
-	swapElem('page_parts/terminal.php',terminalDivName);
+	swapElem('page_parts/terminal.php',terminalDivID);
+	
+	// Show the terminal
+	// Terminal class sets viaible to 1, but we want to change
+	// The display rule as well
+	document.getElementById(terminalID).style = "display: block;"
 }
 
 /*
@@ -45,11 +53,16 @@ function includeTerminal(){
  */
 function removeTerminal(){
 	// get the terminal div
-	var terminalDiv = document.getElementById(terminalDivName);
+	var terminalDiv = document.getElementById(terminalDivID);
 	
 	// Check if terminal div existed
 	if (terminalDiv){
 		// remove its html
 		terminalDiv.innerHTML = "<p></p>";
 	}
+	
+	// Show the terminal
+	// Terminal class sets viaible to 1, but we want to change
+	// The display rule as well
+	document.getElementById(terminalID).style = "display: block;"
 }
