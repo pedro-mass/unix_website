@@ -5,6 +5,10 @@
 		<script type='text/javascript' src="js/page_setup.js"></script>
 		<script type='text/javascript' src="js/content.js"></script>
 		<script type='text/javascript' src="js/flip_terminal.js"></script>
+		<script type='text/javascript' src="js/tutorials.js"></script>
+
+		
+		
 		
 		
 		<!-- Terminal js files -->

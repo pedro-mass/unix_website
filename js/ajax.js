@@ -11,15 +11,15 @@ var termLinkID = "onOffTermLink";
  * Swaps the "content_target_inner" div with the mainContentPage
  */
 function swapMain(pageName){
-	// remove the terminal parts, if not there already
-	if (terminalLinkExists()){
+	// // remove the terminal parts, if not there already
+	// if (terminalLinkExists()){
 		// remove terminal
 		removeTerminal();	
-	}
+	// }
 	
-	swapElem(pageName, mainContentDivID);
+	swapElem(pageName, mainContentDivID, false);
 	
-	updatePageVars(pageName, "");
+	// updatePageVars(pageName, "");
 }
 
 /*
@@ -28,64 +28,55 @@ function swapMain(pageName){
  */
 function swapMultiple(mainContentPage, sidebarTab){
 	swapMain(mainContentPage);
-	swapElem(sidebarTab, sidebarDivID);
+	swapElem(sidebarTab, sidebarDivID, false);
 }
 
 /*
  * Swaps the "content_target_inner" div with the mainContentPage
  */
-function swapMainTerm(pageName, pageStepsName){
+function swapMainTerm(pageName){
 	// include the terminal parts, if not there already
-	if (!terminalLinkExists()){
-		// include terminal
-		includeTerminal();	
-	}
+	// if (!terminalLinkExists()){
+		// // include terminal
+	// includeTerminal();	
+	// }
 	
 	// store the page to swap
 	var page = pageName;
 	
 	// check if terminal is on
-	if (isTerminalShowing()){
-		// change the page to swap
-		page = pageStepsName
-	} else {
-		
-	}
+	// if (isTerminalShowing()){
+		// // change the page to swap
+		// page = pageStepsName
+	// } else {
+// 		
+	// }
 	
 	// swap the page
-	swapElem(page, mainContentDivID);
+	swapElem(page, mainContentDivID, true);
 	
 	// update page vars
-	updatePageVars(pageName, pageStepsName);
+	// updatePageVars(pageName, pageStepsName);
 }
 
 /*
  * Swaps the "content_target_inner" div with the mainContentPage
  * Swaps teh "sidebar_content" div
  */
-function swapMultipleTerm(mainContentPage, pageStepsName, sidebarTab){
-	swapMainTerm(mainContentPage, pageStepsName);
-	swapElem(sidebarTab, sidebarDivID);
+function swapMultipleTerm(mainContentPage, sidebarTab){
+	swapMainTerm(mainContentPage);
+	swapElem(sidebarTab, sidebarDivID, false);
 }
 
-
-
-
-
-
- 
-
-
-
 // makes a request to load the specified page in the specified elementId.
-function swapElem(pageName, elementId){
+function swapElem(pageName, elementId, lterm){
   var xmlHttp = getXMLHttp();
   
   xmlHttp.onreadystatechange = function()
   {
     if(xmlHttp.readyState == 4)
     {
-      handleResponse(xmlHttp.responseText, elementId);
+      handleResponse(xmlHttp.responseText, elementId, lterm);
     }
   }
 
@@ -130,7 +121,11 @@ function getXMLHttp(){
 
 // Loads the response from the server in the specified elementId
 // Also strips out the a href 
-function handleResponse(response, elementId){
+function handleResponse(response, elementId, lterm){
   document.getElementById(elementId).innerHTML = response;
   stripATags();
+  
+  if(lterm){
+  	includeTerminal();
+  }
 }

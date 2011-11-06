@@ -5,4 +5,4 @@
 		<link type='text/css' rel='stylesheet' href='css/nav_global.css' />
 		<link type='text/css' rel='stylesheet' href='css/nav_local.css' />
 		<link type='text/css' rel='stylesheet' href='css/accordian.css' />
-		
+		<link type='text/css' rel='stylesheet' href='css/tutorials.css' />

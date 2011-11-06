@@ -3,7 +3,8 @@
  */
 
 // Store the name of the terminal div
-var terminalDivID = "terminal";
+var terminalDivContainerID = "terminal";
+var terminalDivID = "termDiv";
 
 // store the id div of the actual terminal
 var terminalID = "termDiv";
@@ -25,22 +26,25 @@ function page_init(){
 	stripATags();
 	
 	// Update the page vars to be the home page
-	updatePageVars(startPage, "");
+	// updatePageVars(startPage, "");
 	
 }
 
-
-function updatePageVars(currentPage, currentPageSteps){
-	curPage = currentPage;
-	curPageSteps = currentPageSteps; 
-}
+// 
+// function updatePageVars(currentPage, currentPageSteps){
+	// curPage = currentPage;
+	// curPageSteps = currentPageSteps; 
+// }
 
 
 /**
  * Adds the terminal parts
  */
 function includeTerminal(){
-	swapElem('page_parts/terminal.php',terminalDivID);
+	if (!document.getElementById(terminalDivID)){
+		swapElem('page_parts/terminal.php',terminalDivContainerID);
+		termOpen();
+	}
 	
 	// Show the terminal
 	// Terminal class sets viaible to 1, but we want to change
@@ -54,10 +58,12 @@ function includeTerminal(){
  */
 function removeTerminal(){
 	// get the terminal div
-	var terminalDiv = document.getElementById(terminalDivID);
+	var terminalDiv = document.getElementById(terminalDivContainerID);
+	
+	var actualTerminal = document.getElementById(terminalDivID);
 	
 	// Check if terminal div existed
-	if (terminalDiv){
+	if (terminalDiv && actualTerminal){
 		// remove its html
 		terminalDiv.innerHTML = "<p></p>";
 	}

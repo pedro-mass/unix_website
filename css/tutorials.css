@@ -1,0 +1,52 @@
+#stage_controls  {
+	width: 600px;
+	margin: 0 auto;
+	border: 1px black solid;
+}
+
+#stage_controls span {
+	padding-right: 2em;
+	cursor: pointer;
+}
+
+#tutorial_container {
+	width: 700px;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	
+	font-family: arial, verdana, sans-serif; 
+}
+
+#tutorial_step_stages {
+	margin-top: 1.5em;
+	
+	position: absolute;
+	left: 0px;
+	width: 5000px;
+	
+	-webkit-transition: all 1.0s ease-in-out;
+	-moz-transition: all 1.0s ease-in-out;
+	-o-transition: all 1.0s ease-in-out;
+	-ms-transition: all 1.0s ease-in-out;	
+	transition: all 1.0s ease-in-out;
+}
+
+#tutorial_title {
+	margin-top: -.5em;
+	margin-left: .5em;
+	position: absolute;
+	z-index: 2;
+}
+
+.stage {
+	margin: 0px;
+	float: left;
+	width: 700px;
+	
+	font-size: .75em;
+}
+
+#stage_content {
+	padding: 1em;
+}
