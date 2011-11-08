@@ -8,9 +8,9 @@
 </p>
 
 <div id="pageNav">
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Previous</a> 
+	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Next</a>
 
 </div>
 

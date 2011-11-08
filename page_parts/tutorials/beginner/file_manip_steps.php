@@ -1,5 +1,5 @@
 
-<h2>File Manipulation - Copy, Move, Delet</h2>
+<h2>File Manipulation - Copy, Move, Delete</h2>
 
 <p>
 	<ol>
