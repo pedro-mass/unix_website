@@ -1,5 +1,5 @@
 						<ul>
-							<li><a href='#' onclick="swapMultipleTerm('page_parts/tutorials/main_tutorials.php', 'page_parts/tutorials/main_tutorials.php');">tutorials</a>
+							<li><a href='#' onclick="swapMultipleTerm('page_parts/tutorials/main_tutorials.php', 'page_parts/side_bar/side_bar_tutorials.php');">tutorials</a>
 								<ul>
 									<li><a href='#'>Beginner</a></li>
 									<li><a href='#'>Intermediate</a></li>
