@@ -57,11 +57,9 @@ When naming a file, you should avoid using any special characters such as:
 	For example, most javascript files end with .js but are not required to.
 </p>
 
-<!-- Had to use inline style because CSS couldnt find element and class-->
-<div id="pageNav" class="pageNavSummary" style="margin:2px;">
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/template.php');">Previous</a> 
+<div id="pageNav">
+	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/template.php');">Next</a>
-
+	<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Next</a>
 </div>
 

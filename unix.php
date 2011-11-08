@@ -31,7 +31,7 @@
 									// Check if page variable was set
 									if (isset($_GET['page'])){
 										// check if page value has .php extension
-										if( pathinfo($_GET['page'], PATHINFO_EXTENSION) == 'php' ){
+										if( pathinfo($_GET['page'], PATHINFO_EXTENSION) === 'php' ){
 											// get the specified name
 											$pageName =$_GET['page'];
 										}									

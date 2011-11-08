@@ -23,6 +23,8 @@
 							<br />
 							
 							<div id="pageNav">
+								<a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">Previous</a> 
+								| 
 								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_move.php');">Next</a>
 							</div>
 						</p>
