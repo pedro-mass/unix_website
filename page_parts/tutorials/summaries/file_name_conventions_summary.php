@@ -1,4 +1,4 @@
-<h4>File Name Conventions Summary:</h4>
+<h2>File Name Conventions Summary:</h2>
 <ul>	
 	<li>Safest way to name a file
 		<ul>
@@ -14,3 +14,9 @@
 	</li>
 	<li>Try not to have spaces in the file name</li>
 <ul>
+	
+<div id="pageNav" style="margin:2px;">
+	<a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">Previous</a> 
+	| 
+	<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Next</a>
+</div>

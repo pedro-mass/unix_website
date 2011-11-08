@@ -60,6 +60,6 @@ When naming a file, you should avoid using any special characters such as:
 <div id="pageNav">
 	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/summaries/file_name_conventions_summary.php' onclick="swapMainTerm('page_parts/tutorials/summaries/file_name_conventions_summary.php');">Next</a>
 </div>
 
