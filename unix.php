@@ -4,6 +4,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>409 | Group Project | team SU</title>
 		<?php include_once('page_parts/header_parts/css_include.php'); ?>
+		<link type="text/css" rel="stylesheet" href="css/sidebar_no_js.css" />
 		<!-- Bring in the javascript links -->
 		<?php include_once('page_parts/header_parts/javascript_include.php'); ?>
 	</head>
@@ -11,9 +12,7 @@
 	<body>
 		<!-- Bring in the sidebar -->
 
-		<div id='sidebar' style="left: -5%;
-								 margin: 0;
-								 top: 20em;>
+		<div id='sidebar'>
 			<div id="sidebar_content">
 				<?php 
 					// check to see if any variables was passed
