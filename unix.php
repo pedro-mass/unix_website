@@ -44,7 +44,7 @@
 				</div>
 				
 				<!-- Bring in the sidebar -->
-				<?php include_once('page_parts/side_bar/side_bar.php') ?>
+<!-- 				<?php include_once('page_parts/side_bar/side_bar.php') ?> -->
 				
 			</div></div>
 
