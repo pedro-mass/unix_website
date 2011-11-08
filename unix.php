@@ -9,6 +9,26 @@
 	</head>
 	</head>
 	<body>
+		<!-- Bring in the sidebar -->
+
+		<div id='sidebar' style="left: -5%;
+								 margin: 0;
+								 top: 20em;>
+			<div id="sidebar_content">
+				<?php 
+					// check to see if any variables was passed
+					// via GET
+					if (count($_GET)>0){
+						// Check if side page variable was set
+						if (isset($_GET['side']) && strlen($_GET['side'])>0){
+							// include the new sidebar content	
+							include_once($_GET['side']);
+						}
+					} 
+				?>
+			</div>
+		</div>
+		
 		<div id='wrapper'>
 			<!-- Bring in the header -->
 			<?php include_once('page_parts/header.php') ?>
