@@ -1,20 +1,15 @@
+#termDiv_container {
+	bottom: 5px;
+	width: 700px;
+	position: absolute;
+}
+
 #termDiv {
 	color: #ffffff;
 	font-size: .75em;
 	font-family: "Courier new";
 	padding: 2px;
-	border: 1px blue solid;
-}
-
-#open_terminal a{
-	position: relative;
-	z-index: 70;
-	color: #ffffff !important;
-	border: 1px green solid;
-}
-
-#open_terminal {
-	position: relative;
-	z-index: 70;
-	border: 1px orange solid;
+	width: 675px;
+	margin: 0 auto;
+	overflow: hidden;
 }

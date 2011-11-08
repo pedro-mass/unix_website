@@ -1,4 +1,11 @@
-<h2>Welcome Guest</h2>
+<h2>Welcome to the Tutorial Section Guest</h2>
+<p>
+	Welcome "User", we recommend you start at beginner level tutorials
+	if you have little to no experiance working with UNIX. If you have 
+	worked with some UNIX commands before perhaps intermediate level tutorials 
+	would be a good place to start. We have not made advanced level tutorials yet.
+</p>
+
 <ul class="accordian">
 	<li id="tut1">
 		<h2><a id="tut1link" href='#' onclick="listOpen('tut1','tut1link')">Beginner</a></h2>
@@ -29,11 +36,4 @@
 	</li>
 </ul>
 
-<!-- Had to use inline style because CSS couldnt find element and class-->
-<div id="pageNav" class="pageNavSummary" style="margin:2px;">
-	<a href='unix.php?page=page_parts/tutorials/summaries/file_manip_summary.php' onclick="swapMainTerm('page_parts/tutorials/summaries/file_manip_summary.php');">Previous</a> 
-	| 
-	<a href='unix.php?page=page_parts/quizzes/beginner/file_manip_quiz.php' onclick="swapMultiple('page_parts/quizzes/beginner/file_manip_quiz.php','page_parts/side_bar/side_bar_quizzes.php');">Quiz Time!</a>
-
-</div>
 			

@@ -46,7 +46,8 @@
 			}
 		</script>
 				
-		<h1>Quiz: 1</h1>
+		<h3>Practice Quiz</h3>
+		
 		<form name="quiz1" method="GET" action="quiz.php" onsubmit="return validate(this,3)">
 			<label>Question 1: What command would you use to make a directory?<br /></label>
 			<input type="radio" name="question1" value="0"/>cd

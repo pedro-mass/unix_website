@@ -6,7 +6,7 @@
 // basic term os / kernel
 
 // SIZE ADJUSTMENTS
-var conf_cols=84;
+var conf_cols=96;
 var conf_rows=18;
 var conf_rowheigt=15;
 var conf_blink_delay=500;

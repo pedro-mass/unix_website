@@ -1,20 +1,23 @@
 #stage_controls  {
-	width: 600px;
+	width: 510px;
 	margin: 0 auto;
-	border: 1px black solid;
+	margin-top: 5px;
 }
 
 #stage_controls span {
-	padding-right: 2em;
+	padding: 10px;
+	cursor: pointer;
+}
+#stage_controls span:hover {
+	color: #ffffff;
 	cursor: pointer;
 }
 
 #tutorial_container {
 	width: 700px;
-	height: 250px;
+	height: 260px;
 	overflow: hidden;
 	position: relative;
-	
 	font-family: arial, verdana, sans-serif; 
 }
 

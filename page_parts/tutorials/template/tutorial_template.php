@@ -1,5 +1,5 @@
 <div id="tutorial_title">
-	<h2>UNIX Navigation</h2>
+	<h2>SECTION TITLE</h2>
 </div>
 
 <div id="tutorial_container">
@@ -31,33 +31,12 @@
 </div>
 
 <div id="stage_controls">
-	<span onclick="move1()">Part 1</span>
-	<span onclick="move2()">Part 2</span>
-	<span onclick="move3()">Part 3</span>
-	<span onclick="move4()">Part 4</span>
-	<span onclick="move5()">Part 5</span>
-	<span onclick="move6()">Practice Quiz!</span>
+	<span onclick="move1()">part 1</span>
+	<span onclick="move2()">part 2</span>
+	<span onclick="move3()">part 3</span>
+	<span onclick="move4()">part 4</span>
+	<span onclick="move5()">part 5</span>
+	<span onclick="move6()">practice quiz</span>
 </div>	
 
-<DIV ID="termDiv"></DIV>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Had to use inline style because CSS couldnt find element and class-->
-<div id="pageNav" class="pageNavSummary" style="margin:2px;">
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/template.php');">Previous</a> 
-	| 
-	<a href='unix.php?page=page_parts/template.php' onclick="swapMainTerm('page_parts/template.php');">Next</a>
-
-</div>
 
