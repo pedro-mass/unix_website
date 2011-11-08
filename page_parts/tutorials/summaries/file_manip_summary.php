@@ -30,7 +30,7 @@
 						<div id="pageNav" class="pageNavSummary" style="margin:2px;">
 							<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_remove.php');">Previous</a> 
 							| 
-							<a href='unix.php?page=page_parts/tutorials/main_tutorials.php' onclick="swapMainTerm('page_parts/tutorials/main_tutorials.php');">Next</a>
+							<a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Next</a>
 			
 						</div>
 					

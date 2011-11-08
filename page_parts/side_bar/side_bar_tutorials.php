@@ -5,7 +5,7 @@
 									<li><a href='javascript:void(0)'>Shell Nav</a></li>
 									<li><a href='javascript:void(0)' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">File names</a></li>
 									<li><a href='javascript:void(0)' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">File manip</a></li>
-									<li><a href='javascript:void(0)'>Getting help</a></li>
+									<li><a href='javascript:void(0)' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php'>Getting help</a></li>
 								</ul>
 							</li>
 							<li><a href='#'>Intermediate</a>
