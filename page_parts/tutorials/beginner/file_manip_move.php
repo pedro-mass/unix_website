@@ -23,8 +23,8 @@
 							This would rename the file.
 							
 							<div id="pageNav">
-								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Previous</a> | 
-								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_remove.php');">Next</a>
+								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Previous</a> | 
+								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_remove.php');">Next</a>
 							</div>
 						</p>
 					

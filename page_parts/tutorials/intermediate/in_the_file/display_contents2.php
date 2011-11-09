@@ -15,8 +15,8 @@
 </p>
 
 <div id="pageNav">
-	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file_display_contents.php' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file_display_contents.php');">Previous</a> 
+	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/display_contents.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/display_contents.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Next</a>
 
 </div>

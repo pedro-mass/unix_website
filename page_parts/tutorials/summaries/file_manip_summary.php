@@ -28,9 +28,9 @@
 						
 						<!-- Had to use inline style because CSS couldnt find element and class-->
 						<div id="pageNav" class="pageNavSummary" style="margin:2px;">
-							<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_remove.php');">Previous</a> 
+							<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_remove.php');">Previous</a> 
 							| 
-							<a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Next</a>
+							<a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Next</a>
 			
 						</div>
 					

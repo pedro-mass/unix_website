@@ -23,9 +23,9 @@
 							<br />
 							
 							<div id="pageNav">
-								<a href='unix.php?page=page_parts/tutorials/summaries/file_name_conventions_summary.php' onclick="swapMainTerm('page_parts/tutorials/summaries/file_name_conventions_summary.php');">Previous</a> 
+								<a href='unix.php?page=page_parts/tutorials/summaries/file_name_conventions_summary.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/summaries/file_name_conventions_summary.php');">Previous</a> 
 								| 
-								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_move.php');">Next</a>
+								<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_move.php');">Next</a>
 							</div>
 						</p>
 					

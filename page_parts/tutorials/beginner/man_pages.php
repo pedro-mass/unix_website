@@ -33,9 +33,9 @@
 </p>
 
 <div id="pageNav">
-	<a href='unix.php?page=page_parts/tutorials/summaries/file_manip_summary.php' onclick="swapMainTerm('page_parts/tutorials/summaries/file_manip_summary.php');">Previous</a> 
+	<a href='unix.php?page=page_parts/tutorials/summaries/file_manip_summary.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/summaries/file_manip_summary.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/tutorials/summaries/man_pages_summary.php' onclick="swapMainTerm('page_parts/tutorials/summaries/man_pages_summary.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/summaries/man_pages_summary.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/summaries/man_pages_summary.php');">Next</a>
 
 </div>
 

@@ -1,6 +1,6 @@
 <div id='global_nav'>
 					<ul>
-						<li><a href='unix.php?page=page_parts/home/home.php'
+						<li><a href='unix.php?page=page_parts/home/home.php&side=home'
 						onclick="swapMultiple('page_parts/home/home.php','page_parts/side_bar/side_bar_home.php');">home</a></li>
 						<li>|</li>
 						<li><a href='unix.php?page=page_parts/my_account/my_account.php'

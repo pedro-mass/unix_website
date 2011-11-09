@@ -3,14 +3,14 @@
 								<ul>
 									<li><a href='#'>File System</a></li>
 									<li><a href='#'>Shell Nav</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">File names</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">File manip</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Getting help</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">File names</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">File manip</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Getting help</a></li>
 								</ul>
 							</li>
 							<li><a href='#'>Intermediate</a>
 								<ul>
-									<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file_display_contents.php' onclick="swapMainTerm('page_parts/tutorials/beginner/intermediate/in_the_file_display_contents.php');">In the File</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/display_contents.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/display_contents.php');">In the File</a></li>
 									<li><a href='#'>Redirection</a></li>
 									<li><a href='#'>Editing in the Shell</a></li>
 									<li><a href='#'>Misc</a></li>

@@ -17,13 +17,37 @@
 				<?php 
 					// check to see if any variables was passed
 					// via GET
-					if (count($_GET)>0){
-						// Check if side page variable was set
-						if (isset($_GET['side']) && strlen($_GET['side'])>0){
-							// include the new sidebar content	
-							include_once($_GET['side']);
+					// if (count($_GET)>0 && isset($_GET['side']) && strlen($_GET['side'])>0){
+						// include the new sidebar content	
+						
+						$sidePage = "";
+						
+						if(isset($_GET['side'])){
+							$sidePage = $_GET['side'];
 						}
-					} 
+						
+						switch($sidePage){
+							case 'home':
+								include_once("page_parts/side_bar/side_bar_home.php");
+							break;
+							
+							case 'index':
+								include_once("page_parts/side_bar/side_bar_index.php");
+							break;
+								
+							case 'quiz':
+								include_once("page_parts/side_bar/side_bar_quizzes.php");
+							break;
+							
+							case 'tutorial':
+								include_once("page_parts/side_bar/side_bar_tutorials.php");
+							break;
+							
+							default:
+								include_once("page_parts/side_bar/side_bar_home.php");
+							break;
+						}
+					// }						 
 				?>
 			</div>
 		</div>
@@ -50,10 +74,10 @@
 									// Check if page variable was set
 									if (isset($_GET['page'])){
 										// check if page value has .php extension
-										if( pathinfo($_GET['page'], PATHINFO_EXTENSION) === 'php' ){
+										// if( pathinfo($_GET['page'], PATHINFO_EXTENSION) === 'php' ){
 											// get the specified name
 											$pageName =$_GET['page'];
-										}									
+										// }									
 									}
 								}
 								include_once($pageName) 

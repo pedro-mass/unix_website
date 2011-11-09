@@ -10,10 +10,10 @@
 	<li id="tut1">
 		<h2><a id="tut1link" href='#' onclick="listOpen('tut1','tut1link')">Beginner</a></h2>
 		<ul>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_copy.php');">Copy command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_move.php');">Move command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php' onclick="swapMain('page_parts/tutorials/beginner/file_manip_remove.php');">Remove command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php' onclick="swapMain('page_parts/tutorials/beginner/file_name_conventions.php');">Name Conventions</a></li>
+			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_copy.php');">Copy command</a></li>
+			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_move.php');">Move command</a></li>
+			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_remove.php');">Remove command</a></li>
+			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_name_conventions.php');">Name Conventions</a></li>
 		</ul>
 	</li>
 	   

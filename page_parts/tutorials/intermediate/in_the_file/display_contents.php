@@ -18,8 +18,8 @@
 </p>
 
 <div id="pageNav">
-	<a href='unix.php?page=page_parts/tutorials/main_tutorials.php' onclick="swapMainTerm('page_parts/tutorials/main_tutorials.php');">Previous</a> 
+	<a href='unix.php?page=page_parts/tutorials/main_tutorials.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/main_tutorials.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file_display_contents2.php' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file_display_contents2.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/display_contents2.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/display_contents2.php');">Next</a>
 
 </div>
