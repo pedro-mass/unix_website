@@ -13,10 +13,30 @@
 		</ul>
 	</li>
 	<li>Try not to have spaces in the file name</li>
+	
+	<br />
+	<table border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Good names</th>
+			<th>Bad names</th>
+		</tr>
+		<tr>
+			<td>welcome.php</td>
+			<td>welcome</td>
+		</tr>
+		<tr>
+			<td>unix_cmds.txt</td>
+			<td>unix cmds.txt</td>
+		</tr>
+		<tr>
+			<td>pb_j.doc</td>
+			<td>pb&j.doc</td>
+		</tr>
+	</table>
 <ul>
 	
 <div id="pageNav" style="margin:2px;">
-	<a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">Previous</a> 
+	<a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions2.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions2.php');">Previous</a> 
 	| 
 	<a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">Next</a>
 </div>
