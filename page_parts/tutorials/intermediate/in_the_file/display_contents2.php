@@ -1,5 +1,5 @@
 
-<h2>In the file: Displaying Contents of File</h2>
+<h2>In the File: Displaying Contents of File</h2>
 <h3>less</h3>
 <p>
 	This command writes out the content of the file, one page at a time. To go to the next page, tap the space bar. To exit out of viewing the contents, hit the q key.
@@ -17,6 +17,6 @@
 <div id="pageNav">
 	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/display_contents.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/display_contents.php');">Previous</a> 
 	| 
-	<a href='unix.php?page=page_parts/tutorials/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/tutorial_template.php');">Next</a>
+	<a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/search_contents.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/search_contents.php');">Next</a>
 
 </div>
