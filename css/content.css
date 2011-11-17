@@ -31,3 +31,56 @@
 	margin-top: -10px; /* This is a temp fix b/c the links were going to close to the
 	bottom */
 }
+
+#content_padding {
+	padding: 20px;
+	font-family: arial, verdana, sans-serif; 
+}
+
+#left_content {
+	float: left;
+	width: 49%;
+	
+	overflow-x: hidden;
+}
+
+#right_content {
+	float: right;
+	width: 49%;
+	
+	overflow-x: hidden;
+}
+
+.profile_pic {
+	float: left;
+	clear: both;
+	margin-right: 5px;
+	
+	border-radius: 15px;
+}
+
+.profile {
+	float: left;
+	clear: both;
+	width: 600px;
+	margin: 10px;
+}
+
+.profile_info {
+	font-size: .8em;
+	margin-top: -15px;
+}
+
+.profile h3 {
+	margin-top: 5px;
+}
+
+#index_content {
+	font-weight: normal !important;
+	font-size: .7em;
+	margin-top: 50px;
+}
+
+.quiz_answer {
+	
+}

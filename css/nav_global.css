@@ -18,7 +18,3 @@
 #global_nav a {
 	font-size: .75em;
 }
-
-#global_nav a:hover {
-	text-decoration: italic;
-}

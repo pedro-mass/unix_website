@@ -68,6 +68,10 @@ body {
 	text-align: right;
 }
 
+#logo a:hover {
+	color: #000000;
+}
+
 #title {
 	float: right;
 	position: relative;
@@ -123,7 +127,10 @@ body {
 	box-shadow: inset -3px 3px 3px rgba(0,0,0,0.8);
 }	
 
-
+.question {
+	display: block;
+	padding-bottom: 10px;
+}
 
 
 

@@ -10,9 +10,9 @@
 	font-size: .75em;
 	
 	background-color: #ffffff;
-	width: 140px;
+	width: 175px;
 	
-	margin-right: -160px;
+	margin-right: -195px;
 	
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -54,4 +54,8 @@
 
 #sidebar_content ul ul a {
 	font-weight: lighter !important;
+}
+
+#sidebar_content ul ul li{
+	margin-left: -15px;
 }

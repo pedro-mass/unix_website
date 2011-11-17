@@ -1,39 +1,43 @@
-<h2>Welcome to the Tutorial Section Guest</h2>
-<p>
-	Welcome "User", we recommend you start at beginner level tutorials
-	if you have little to no experiance working with UNIX. If you have 
-	worked with some UNIX commands before perhaps intermediate level tutorials 
-	would be a good place to start. We have not made advanced level tutorials yet.
-</p>
+<div id="content_padding">
 
-<ul class="accordian">
-	<li id="tut1">
-		<h2><a id="tut1link" href='#' onclick="listOpen('tut1','tut1link')">Beginner</a></h2>
-		<ul>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_copy.php');">Copy command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_move.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_move.php');">Move command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_remove.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_manip_remove.php');">Remove command</a></li>
-			<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php&side=tutorial' onclick="swapMain('page_parts/tutorials/beginner/file_name_conventions.php');">Name Conventions</a></li>
-		</ul>
-	</li>
-	   
-	<li id="tut2">
-		<h2><a id="tut2link" href='#' onclick="listOpen('tut2','tut2link')">Intermediate</a></h2>
-		<ul>
-		<li>Part 1</li>
-		<li>Part 2</li>
-		</ul>
-	</li>
-	   
-	<li id="tut3">
-		<h2><a id="tut3link" href='#' onclick="listOpen('tut3','tut3link')">Advanced</a></h2>
-		<ul>
-			<li>Part 1</li>
-			<li>Part 2</li>
-			<li>Part 3</li>
-			<li>Part 4</li>
-		</ul>
-	</li>
-</ul>
+	<div id="left_content">
+		<h2>Welcome GUEST</h2>
+		
+		<p>
+			Please select a tutorial on the right to begin your lesson. You can progress sequentially, or jump straight to your lesson of choice.
+		</p>
 
+	</div>
+
+	<div id="right_content">
+		<ul class="accordian">
+			<li id="tut1">
+				<h2><a id="tut1link" href='#' onclick="listOpen('tut1','tut1link', '150px')">Beginner Tutorials</a></h2>
+				<ul>
+					<li><a href='unix.php?page=page_parts/tutorials/beginner/file_system/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_system/tutorial_template.php');">File System</a></li>
+					<li><a href='unix.php?page=page_parts/tutorials/beginner/shell_nav/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/shell_nav/tutorial_template.php');">Shell Navigation</a></li></li>
+					<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name/tutorial_template.php');">File Names</a></li>
+					<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip/tutorial_template.php');">File Manipulation</a></li>
+					<li><a href='unix.php?page=page_parts/tutorials/beginner/help/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/help/tutorial_template.php');">Getting help</a></li>
+				</ul>
+			</li>
+			   
+			<li id="tut2">
+				<h2><a id="tut2link" href='#' onclick="listOpen('tut2','tut2link', '110px')">Intermediate Tutorials</a></h2>
+				<ul>
+					<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_file/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_file/tutorial_template.php');">In the File</a></li>
+					<li><a href='unix.php?page=page_parts/tutorials/intermediate/shell_edit/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/shell_edit/tutorial_template.php');">Shell Editing</a></li>
+					<li><a href='unix.php?page=page_parts/tutorials/intermediate/misc/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/misc/tutorial_template.php');">Miscellaneous</a></li>
+				</ul>
+			</li>
+			
+			<li id="tut3">
+				<h2><a id="tut3link" href='#' onclick="listOpen('tut3','tut3link', '70px')">Advanced Tutorials</a></h2>
+				<ul>
+					<li><a href='#'>Coming Soon!</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
 			

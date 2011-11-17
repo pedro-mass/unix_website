@@ -1,57 +1,42 @@
-<html>
-	<head>
+	<div id="content_padding">
+		<h2>Meet our Team</h2>
+		<div class='profile'>
+			<img src='media/img/dpr.jpg' class='profile_pic' alt='dpr'  height='100px' width='100px' />
+			<h3>Dustin Robertson</h3>
+			<p class='profile_info'>
+				3rd year ANSA major, minoring in web development.
+				Currently unemployed - enjoys video games and fixing computers. 
+				Was responsible for content management.
+			</p>
+		</div>
 		
-	</head>
-	<body>
-		<h1>About Us</h1>
-		<h2>Tech:</h2>
-		<ul>
-			<li><h3>CSS</h3>
-				<p>
-					Stuff
-					
-				</p>
-			</li>
-			
-			<li><h3>Javascript</h3>
-				<p>
-					The terminal we use is made completely in javascript. 
-					We also use javascript to validate the quizzes, validate user accounts,
-					and we use it for the expanding content areas as well.
-				</p>
-			</li>
-			
-			<li><h3>PHP</h3>
-				<p>
-					We use PHP to include parts of our site that we split up as well as provide
-					server side validation of quizzes before submitting results to the database.
-				</p>
-			</li>
-			
-			<li><h3>MySQL</h3>
-				<p>
-					Stuff
-				</p>
-			</li>
-		</ul>
+		<div class='profile'>
+			<img src='media/img/met.jpg' class='profile_pic' alt='dpr' height='100px' width='100px' />
+			<h3>Matthew Traughber</h3>
+			<p class='profile_info'>
+				4th year IT major, minoring in communication.
+				Currently working at Paychex as a software test engineer - enjoys interface design and web development. Oh, and sleep.
+				Was responsible for UX.
+			</p>
+		</div>
 		
-		<h2>Members:</h2>
-		<ul>
-			<li><h3>Pedro Mass</h3>
-				<p>Stuff</p>
-			</li>
-			
-			<li><h3>Matt</h3>
-				<p>Stuff</p>
-			</li>
-			
-			<li><h3>Dustin</h3>
-				<p>Stuff</p>
-			</li>
-			
-			<li><h3>Michael</h3>
-				<p>Stuff</p>
-			</li>
-		</ul>
-	</body>
-</html>
+		<div class='profile'>
+			<img src='media/img/mjl.jpg' class='profile_pic' alt='dpr' height='100px' width='100px' />
+			<h3>Michael Lauridsen</h3>
+			<p class='profile_info'>
+				4th year IT major, minoring in game development.
+				Currently unemployed - enjoys playing video games and car audio equipment.
+				Was responsible for user accounts and progress tracking.
+			</p>
+		</div>
+		
+		<div class='profile'>
+			<img src='media/img/pjm.jpg' class='profile_pic' alt='dpr' height='100px' width='100px' />
+			<h3>Pedro Mass</h3>
+			<p class='profile_info'>
+				5th year CS major, minoring in web development.
+				Currently employed at RIT FMS - enjoys video games and motorcycle rides. 
+				Was responsible for back-end configuration.
+			</p>
+		</div>
+	</div>

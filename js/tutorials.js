@@ -40,5 +40,19 @@ function move6(){
 	}
 }
 
+function move7(){
+	if (document.getElementById){
+		var stage6 = document.getElementById('tutorial_step_stages').style;
+		stage6.left = -4200 + 'px';
+	}
+}
+
+function move8(){
+	if (document.getElementById){
+		var stage6 = document.getElementById('tutorial_step_stages').style;
+		stage6.left = -4900 + 'px';
+	}
+}
+
 
 		

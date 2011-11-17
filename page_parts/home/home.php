@@ -1,16 +1,23 @@
-<html>
-	<head>
+<div id="content_padding">
 		
-	</head>
-	<body>
-		<h1>Welcome to Team SU's Guide to Unix!</h1>
+	<div id="left_content">
+		<h1>Welcome!</h1>
+		
 		<p>
-			Our site sets out to provide tutorials for all levels of Unix users, as well as
-			offering quizes and command reference. We also feature a terminal simulator which
-			allows you to practice along side our tutorials.
+			Guide to UNIX is the easiest way to learn UNIX. It's interactive, fun, and best of all - it's free!
+		</p>
+		<p>
+			You can register above to track your progress - or if you'd like, follow the tabs above to get started without an account.
 		</p>
 		<p>	
-			You can use the sidebar on the right to navigate to specific areas of our site.
+			Don't forget to use the sidebar on the right to quickly jump to specific sections.
 		</p>
-	</body>
-</html>
+		
+		<h4>Have fun!</h4>
+
+	</div>
+		
+	<div id="right_content">
+		<img src='media/img/unix_logo.png' alt='logo' />
+	</div>
+</div>

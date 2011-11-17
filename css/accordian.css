@@ -2,17 +2,16 @@
 	display: block;
 	overflow: hidden;
 	background-color: #ffffff;
-	height: 50px;
-	width: 500px;
-	padding-left: 15px;
-	padding-bottom: 15px;
+	height: 40px;
+	width: 300px;
+	
+	padding-left: 10px;
+	padding-bottom: 0px;
 	margin-bottom: 30px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 6px 2px 15px #000000;
-	-webkit-box-shadow: 6px 2px 15px #000000;
-	box-shadow: 6px 2px 15px #000000;
+	
+	margin-left: -40px;
+	
+	box-shadow:  5px 5px 5px #000000;
 }
 
 #content_target_inner .accordian li {
@@ -20,3 +19,12 @@
 	-moz-transition: all 0.25s ease-in-out;
 	-o-transition: all 0.25s ease-in-out;
 }
+
+#content_target_inner ul ul {
+	margin-top: -10px;
+}
+
+#content_target_inner h2 {
+	margin-top: 5px;
+}
+	

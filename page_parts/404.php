@@ -1,7 +1,5 @@
+<div id="content_padding">
+						
+						<img src='media/img/404.jpg' alt='404' style="width: 498px; margin-left: 75px;"/>
 
-						<h2>Opps...Something went wrong</h2>
-						<p>
-							You've fallen off the edge of the earth,
-							please trying using the global nav to come back to 
-							us.
-						</p>
+</div>

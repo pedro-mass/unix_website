@@ -1,7 +1,7 @@
 /**
  * @author drom296
  */
-
+/**
 // Store the name of the terminal div
 var terminalDivContainerID = "terminal";
 var terminalDivID = "termDiv";
@@ -17,6 +17,7 @@ var curPage = "";
 
 // store the current pageSteps
 var curPageSteps = "";
+**/
 
 /**
  * Returns functions needed on page setup
@@ -29,15 +30,18 @@ function page_init(){
 /**
  * Adds the terminal parts
  */
+ /**
 function includeTerminal(){
 	if (!document.getElementById(terminalDivID)){
 		swapElem('page_parts/terminal.php',terminalDivContainerID, true);
 	}
 }
+**/
 
 /*
  * Removes the terminal parts
  */
+ /**
 function removeTerminal(){
 	// get the terminal div
 	var terminalDiv = document.getElementById(terminalDivContainerID);
@@ -50,3 +54,4 @@ function removeTerminal(){
 		terminalDiv.innerHTML = "<p></p>";
 	}
 }
+**/

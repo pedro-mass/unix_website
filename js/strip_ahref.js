@@ -1,5 +1,8 @@
 // store a listing of our main pages used for processing
 var basePages = new Array("WELCOME.PHP","UNIX.PHP");
+// string to replace the hrefs with
+var replaceWith = "#";
+
 
 function stripATags(){
 	// get all a tags
@@ -12,7 +15,7 @@ function stripATags(){
 		// check if one of the base pages: welcome.php or unix.php
 		if (isBasePage(iNode.href)){
 			// since it is, strip the hrefs
-			iNode.href="#";
+			iNode.href=replaceWith;
 		}
 	}
 }

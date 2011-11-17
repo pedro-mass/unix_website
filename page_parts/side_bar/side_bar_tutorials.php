@@ -1,27 +1,23 @@
 						<ul>
-							<li><a href='#'>Beginner</a>
+							<li>Beginner Tutorials
 								<ul>
-									<li><a href='#'>File System</a></li>
-									<li><a href='#'>Shell Nav</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name_conventions.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name_conventions.php');">File names</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip_copy.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip_copy.php');">File manip</a></li>
-									<li><a href='unix.php?page=page_parts/tutorials/beginner/man_pages.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/man_pages.php');">Getting help</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_system/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_system/tutorial_template.php');">File System</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/shell_nav/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/shell_nav/tutorial_template.php');">Shell Navigation</a></li></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_name/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_name/tutorial_template.php');">File Names</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/file_manip/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_manip/tutorial_template.php');">File Manipulation</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/beginner/help/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/help/tutorial_template.php');">Getting Help</a></li>
 								</ul>
 							</li>
-							<li><a href='#'>Intermediate</a>
+							<li>Intermediate Tutorials
 								<ul>
-									<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_the_file/display_contents.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_the_file/display_contents.php');">In the File</a></li>
-									<li><a href='#'>Redirection</a></li>
-									<li><a href='#'>Editing in the Shell</a></li>
-									<li><a href='#'>Misc</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_file/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/in_file/tutorial_template.php');">In the File</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/intermediate/shell_edit/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/shell_edit/tutorial_template.php');">Shell Editing</a></li>
+									<li><a href='unix.php?page=page_parts/tutorials/intermediate/misc/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/intermediate/misc/tutorial_template.php');">Miscellaneous</a></li>
 								</ul>
 							</li>
-							<li><a href='#'>Advanced</a>
+							<li>Advanced Tutorials
 								<ul>
-									<li><a href='#' onclick="swapMainTerm('page_parts/tutorials/template/tutorial_template.php');">Section 1</a></li>
-									<li><a href='#'>Section 2</a></li>
-									<li><a href='#'>Section 3</a></li>
-									<li><a href='#'>Section 4</a></li>
+									<li><a href='#'>Coming Soon!</a></li>
 								</ul>
 							</li>
 						</ul>

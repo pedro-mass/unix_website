@@ -11,7 +11,7 @@ var termLinkID = "onOffTermLink";
  * Swaps the "content_target_inner" div with the mainContentPage
  */
 function swapMain(pageName){
-	removeTerminal();	
+	//removeTerminal();	
 
 	swapElem(pageName, mainContentDivID, false);
 
@@ -31,8 +31,11 @@ function swapMultiple(mainContentPage, sidebarTab){
  */
 function swapMainTerm(pageName){
 	// swap the page
-	swapElem(pageName, mainContentDivID, false);
-	includeTerminal();
+	// swapElem(pageName, mainContentDivID, false);
+	//includeTerminal();
+	
+	// swap the page
+	swapElem(pageName, mainContentDivID, true);
 }
 
 /*
@@ -98,6 +101,7 @@ function getXMLHttp(){
 
 // Loads the response from the server in the specified elementId
 // Also strips out the a href 
+/**
 function handleResponse(response, elementId, lterm){
   document.getElementById(elementId).innerHTML = response;
   stripATags();
@@ -106,3 +110,70 @@ function handleResponse(response, elementId, lterm){
   	termOpen();
   }
 }
+**/
+
+// Loads the response from the server in the specified elementId
+// Also strips out the a href 
+function handleResponse(response, elementId, lterm){
+  document.getElementById(elementId).innerHTML = response;
+  stripATags();
+  
+  // if they want the terminal
+  if(lterm){
+	// include it
+  	includeTerminal();
+  } else{
+	// else remove it
+	removeTerminal();
+  }
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+/**
+ * @author drom296
+ */
+
+// Store the name of the terminal div
+var terminalDivContainerID = "terminal";
+var terminalDivID = "termDiv";
+
+/**
+ * Adds the terminal parts
+ */
+function includeTerminal(){
+		// get the terminal div
+	var terminalDiv = document.getElementById(terminalDivContainerID);
+	
+	var actualTerminal = document.getElementById(terminalDivID);
+	
+	// Check if terminal div existed
+	if (terminalDiv && !actualTerminal){
+		// add The term div html
+		terminalDiv.innerHTML = "<div id="+terminalDivID+"></div>";
+	}
+	
+	// open the terminal
+	termOpen();
+}
+
+/*
+ * Removes the terminal parts
+ */
+function removeTerminal(){
+	// get the terminal div
+	var terminalDiv = document.getElementById(terminalDivContainerID);
+	
+	var actualTerminal = document.getElementById(terminalDivID);
+	
+	// Check if terminal div existed
+	if (terminalDiv && actualTerminal){
+		// remove its html
+		terminalDiv.innerHTML = "<p></p>";
+	}
+}
+
+
+
