@@ -1,0 +1,30 @@
+#content_target_inner .accordian > li {
+	display: block;
+	overflow: hidden;
+	background-color: #ffffff;
+	height: 40px;
+	width: 300px;
+	
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+	
+	margin-left: -40px;
+	
+	box-shadow:  5px 5px 5px #000000;
+}
+
+#content_target_inner .accordian li {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+}
+
+#content_target_inner ul ul {
+	margin-top: -10px;
+}
+
+#content_target_inner h2 {
+	margin-top: 5px;
+}
+	

@@ -1,0 +1,38 @@
+#local_nav {
+	background-color: rgba(45,45,45,1.0);
+	height: 20px;
+	width: 700px;
+}
+
+#local_nav ul {
+	margin-right: -5px;
+}
+
+#local_nav li {
+	height: 20px;
+	list-style: none;
+	float: right;
+	background-color: rgba(190,190,190,.6);
+	margin: 0px 5px;
+	padding: 0px 5px;
+	
+	box-shadow: 3px 1px 3px rgba(0,0,0,0.8);
+}
+
+#local_nav a {
+	font-size: .75em;
+	color: #ffffff;
+}
+
+#local_nav li:hover {
+	background-color: rgba(190,190,190,1.0) !important;
+}
+
+#local_nav .active {
+	background-color: rgba(190,190,190,1.0) !important;
+	color: #ffffff !important;
+}
+
+#local_nav .active a {
+	color: #ffffff !important;
+}

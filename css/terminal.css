@@ -1,0 +1,15 @@
+#termDiv_container {
+	bottom: 5px;
+	width: 700px;
+	position: absolute;
+}
+
+#termDiv {
+	color: #ffffff;
+	font-size: .75em;
+	font-family: "Courier new";
+	padding: 2px;
+	width: 675px;
+	margin: 0 auto;
+	overflow: hidden;
+}

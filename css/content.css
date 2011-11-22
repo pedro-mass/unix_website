@@ -1,0 +1,86 @@
+#content {
+	margin: 0 auto;
+	margin-top: 2em;
+	height: 600px;
+	width: 700px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+}
+
+#content_target {
+	position: absolute;
+	z-index: 4;
+	
+	overflow: auto;
+	background-color: rgba(190,190,190,1.0);
+	height: 580px;
+	width: 700px;
+}
+
+
+#content_target{
+	
+}
+
+#content_target_inner{
+
+}
+
+#pageNav, #pageNav > a{
+	color:blue;
+	text-align: center;
+	margin-top: -10px; /* This is a temp fix b/c the links were going to close to the
+	bottom */
+}
+
+#content_padding {
+	padding: 20px;
+	font-family: arial, verdana, sans-serif; 
+}
+
+#left_content {
+	float: left;
+	width: 49%;
+	
+	overflow-x: hidden;
+}
+
+#right_content {
+	float: right;
+	width: 49%;
+	
+	overflow-x: hidden;
+}
+
+.profile_pic {
+	float: left;
+	clear: both;
+	margin-right: 5px;
+	
+	border-radius: 15px;
+}
+
+.profile {
+	float: left;
+	clear: both;
+	width: 600px;
+	margin: 10px;
+}
+
+.profile_info {
+	font-size: .8em;
+	margin-top: -15px;
+}
+
+.profile h3 {
+	margin-top: 5px;
+}
+
+#index_content {
+	font-weight: normal !important;
+	font-size: .7em;
+	margin-top: 50px;
+}
+
+.quiz_answer {
+	
+}
