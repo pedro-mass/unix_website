@@ -7,6 +7,10 @@ var mainContentDivID = "content_target_inner";
 // stores the terminal link's id
 var termLinkID = "onOffTermLink";
 
+// check to see if the baseURL variable is set
+// if not, set it
+// var baseURL = "/409_unix_site/";
+
 /*
  * Swaps the "content_target_inner" div with the mainContentPage
  */
@@ -64,7 +68,7 @@ function swapElem(pageName, elementId, lterm){
   // http://www.openjs.com/articles/ajax_xmlhttp_using_post.php
   
   var params ="page="+pageName;
-  xmlHttp.open("GET", "load_page.php"+"?"+params, true); 
+  xmlHttp.open("GET", baseURL+"load_page.php"+"?"+params, true); 
   xmlHttp.send(null);
 }
 
