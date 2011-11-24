@@ -68,6 +68,15 @@ function swapElem(pageName, elementId, lterm){
   // http://www.openjs.com/articles/ajax_xmlhttp_using_post.php
   
   var params ="page="+pageName;
+
+	// Make use of a baseURL to enforce root relational links
+	
+	// Check if the baseURL is undefined
+	if (typeof baseURL=="undefined"){
+		// setup a default
+		baseURL = "/";
+	}
+
   xmlHttp.open("GET", baseURL+"load_page.php"+"?"+params, true); 
   xmlHttp.send(null);
 }
