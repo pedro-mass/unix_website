@@ -1,25 +1,18 @@
 
 <div id="content_padding">
-	
 	<div id="left_content">
 		<h2>Index:</h2>
-		
 		<p>
 			Use the commands to the right as a quick reference guide, or for quiz prep!
 		</p>
-
 	</div>
 
 	<div id="right_content">
-	
-	<div id="index_content">
-		<?php 
-				
-				//hook up to my db
-				$dbLink=mysql_connect("localhost","409_team_su","fr1end")
-					or die("couldn't connect: ".mysql_error());
-				
-				mysql_select_db("409_team_su");
+		<div id="index_content">
+			<?php 
+				// Connect and select the Unix database
+				// if connection fails, the program fails.	
+				include('/sql/db_connect.php');
 				
 				//get all data from db
 				
@@ -38,28 +31,7 @@
 						$result .= "<th>".'usage'."</th>";
 						
 						while($row=mysql_fetch_assoc($res)){
-							/*
-							if ($firstRow) {
-								//give the table a table header...
-								//foreach($row as $index => $val){
-								//	$result .= "<th>".$index."</th>";
-								//}
-								
-								$result .= "<th>".$row['command']."</th>";
-								$result .= "<th>".$row['usage']."</th>";
-								
-								$result.="</tr>";
-								$firstRow = false;
-								
-								continue;
-							}//first row
-							*/
-						
 							$result.="<tr>";
-							//foreach($row as $index => $val){
-							//	$result .='<td style="padding:10px">'.$val.'</td>';
-							//}
-							
 								$result .= "<th>".$row['command']."</th>";
 								$result .= "<th>".$row['usage']."</th>";
 							$result.="</tr>";					
@@ -67,13 +39,10 @@
 						
 						$result .= "</table>";
 						echo $result;
-
+	
 					} //if res
 				}//if records found
-
-
-		?>
+			?>
+		</div>
 	</div>
-	</div>
-
 </div>
