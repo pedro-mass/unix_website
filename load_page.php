@@ -7,7 +7,7 @@
 			setcookie(username1, $_REQUEST['username'], $expire);
 			
 			unset($_REQUEST['username']);
-			//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha/#');
+			//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha');
 			//echo '<meta http-equiv="refresh" content="0;url=http://nova.it.rit.edu/~409_team_su/dev/_alpha/">';
 		}
 	}
@@ -20,7 +20,7 @@
 		unset($_REQUEST['username']);
 		//$_REQUEST['page'] = "welcome.php";
 		//echo "<p>its here</p>";
-		//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha/#');
+		//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha');
 		//echo '<meta http-equiv="refresh" content="0;url=http://nova.it.rit.edu/~409_team_su/dev/_alpha/">';
 	}
 	elseif($_REQUEST['page'] == "page_parts/my_account/accountlogin.php"){

@@ -31,7 +31,7 @@
 					mysql_query("INSERT INTO users (username, password, email, ipaddress) VALUES ('$_POST[username]','$_POST[password]','$_POST[email]','$_SERVER[REMOTE_ADDR]')");
 					$expire=time()+60*60*24*30;
 					setcookie(username, $_POST[username],$expire);
-					//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha/#');
+					//header('Location: http://nova.it.rit.edu/~409_team_su/dev/_alpha');
 				}
 				else{
 					echo "<p>This email address or username already has an account.</p>";
