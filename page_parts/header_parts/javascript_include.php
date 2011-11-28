@@ -10,8 +10,11 @@
 	$js_pages[2] = 'js/strip_ahref.js';
 	$js_pages[3] = 'js/ajax.js';
 	$js_pages[4] = 'js/page_setup.js';
-	$js_pages[5] = 'js/content.js';
-	$js_pages[6] = 'js/flip_terminal.js';
+	
+	
+	// TODO find a better way than just commenting out
+	// $js_pages[5] = 'js/content.js';
+	// $js_pages[6] = 'js/flip_terminal.js';
 	$js_pages[7] = 'js/tutorials.js';
 	$js_pages[8] = 'js/accountreg.js';
 	
