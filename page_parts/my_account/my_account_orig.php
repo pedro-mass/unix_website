@@ -55,8 +55,8 @@
 				
 				echo"<br />";
 				
-				$href="page_parts/my_account/accounts.php";
-				$onclick="window.location = 'page_parts/my_account/accounts.php';";
+				$href="/page_parts/my_account/accounts.php";
+				$onclick="window.location = '/page_parts/my_account/accounts.php';";
 				echo '<a href="'.$href.'" onclick="'.$onclick.'">Register</a>';
 			}
 		?>
