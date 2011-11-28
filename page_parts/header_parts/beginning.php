@@ -24,35 +24,3 @@
 					<div id='content_target'>						
 						<!-- Bring in the Contetn -->
 						<div id='content_target_inner'>
-
-
-<!--  Content Section -->
-							<?php 
-								$pageName = '/page_parts/home/home.php';
-								if (isset($_GET['page'])){
-									$pageName =$_GET['page'];
-								}
-								include_once($pageName); 
-							?>
-<!--  Content Section -->							
-							
-							
-							
-							
-							
-						</div>
-
-						<!-- Setup the div for the terminal -->
-						<div id="terminal"></div>
-					</div>					
-				</div>
-				
-				<!-- Bring in the sidebar -->
-				<?php include_once('/page_parts/side_bar/side_bar.php') ?>
-				
-			</div></div>
-
-		</div>
-
-	</body>
-</html>
