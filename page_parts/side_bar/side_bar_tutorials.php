@@ -17,7 +17,7 @@
 							</li>
 							<li>Advanced Tutorials
 								<ul>
-									<li><a href='#'>Coming Soon!</a></li>
+									<li><a>Coming Soon!</a></li>
 								</ul>
 							</li>
 						</ul>
