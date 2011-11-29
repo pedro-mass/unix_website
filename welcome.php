@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 	// include_once('page_parts/header_parts/doctype.php');
 	include('page_parts/header_parts/doctype.php'); 
 ?>
@@ -32,11 +33,21 @@
 						<div id='content_target_inner'>
 							<?php 
 								$pageName = 'page_parts/home/home.php';
+=======
+	// Bring in the beginning section template
+	include('/page_parts/header_parts/beginning.php'); 
+?>
+
+<!--  Content Section -->
+							<?php 
+								$pageName = '/page_parts/home/home.php';
+>>>>>>> 28aabe65ce378ded4cc7b299673ea56f1d085d71
 								if (isset($_GET['page'])){
 									$pageName =$_GET['page'];
 								}
 								include_once($pageName); 
 							?>
+<<<<<<< HEAD
 						</div>
 						
 						<!-- Bring in the terminal -->
@@ -56,3 +67,11 @@
 
 	</body>
 </html>
+=======
+<!--  Content Section -->							
+
+<?php 
+	// Bring in the end section template
+	include('/page_parts/header_parts/end.php'); 
+?>
+>>>>>>> 28aabe65ce378ded4cc7b299673ea56f1d085d71
