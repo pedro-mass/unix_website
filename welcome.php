@@ -12,6 +12,7 @@
 								include_once($pageName); 
 							?>
 <!--  Content Section -->							
+
 <?php 
 	// Bring in the end section template
 	include('/page_parts/header_parts/end.php'); 
