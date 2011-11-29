@@ -7,8 +7,6 @@
 			Please select a tutorial on the right to begin your lesson. You can progress sequentially, or jump straight to your lesson of choice.
 		</p>
 
-	</div>
-
 	<div id="right_content">
 		<ul class="accordian">
 			<li id="tut1">
