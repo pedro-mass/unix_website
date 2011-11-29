@@ -12,7 +12,7 @@
 	<div id="right_content">
 		<ul class="accordian">
 			<li id="tut1">
-				<h2><a id="tut1link" href='#' onclick="listOpen('tut1','tut1link', '150px')">Beginner Quizzes</a></h2>
+				<h2><a id="tut1link" onclick="listOpen('tut1','tut1link', '150px')">Beginner Quizzes</a></h2>
 				<ul>
 					<li><a href='unix.php?page=page_parts/tutorials/beginner/file_system/quiz.php&side=quiz' onclick="swapMain('page_parts/tutorials/beginner/file_system/quiz.php');">File System</a></li>
 					<li><a href='unix.php?page=page_parts/tutorials/beginner/shell_nav/quiz.php&side=quiz' onclick="swapMain('page_parts/tutorials/beginner/shell_nav/quiz.php');">Shell Navigation</a></li></li>
@@ -23,7 +23,7 @@
 			</li>
 			   
 			<li id="tut2">
-				<h2><a id="tut2link" href='#' onclick="listOpen('tut2','tut2link', '110px')">Intermediate Quizzes</a></h2>
+				<h2><a id="tut2link" onclick="listOpen('tut2','tut2link', '110px')">Intermediate Quizzes</a></h2>
 				<ul>
 					<li><a href='unix.php?page=page_parts/tutorials/intermediate/in_file/quiz.php&side=quiz' onclick="swapMain('page_parts/tutorials/intermediate/in_file/quiz.php');">In the File</a></li>
 					<li><a href='unix.php?page=page_parts/tutorials/intermediate/shell_edit/quiz.php&side=quiz' onclick="swapMain('page_parts/tutorials/intermediate/shell_edit/quiz.php');">Shell Editing</a></li>
@@ -32,9 +32,9 @@
 			</li>
 			
 			<li id="tut3">
-				<h2><a id="tut3link" href='#' onclick="listOpen('tut3','tut3link', '70px')">Advanced Quizzes</a></h2>
+				<h2><a id="tut3link" onclick="listOpen('tut3','tut3link', '70px')">Advanced Quizzes</a></h2>
 				<ul>
-					<li><a href='#'>Coming Soon!</a></li>
+					<li><a>Coming Soon!</a></li>
 				</ul>
 			</li>
 		</ul>
