@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 30, 2011 at 03:58 AM
+-- Generation Time: Nov 30, 2011 at 04:27 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -25,10 +25,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `unix_commands`
 --
--- Creation: Nov 24, 2011 at 07:36 PM
---
 
-DROP TABLE IF EXISTS `unix_commands`;
 CREATE TABLE IF NOT EXISTS `unix_commands` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `command` varchar(20) NOT NULL,
@@ -50,10 +47,7 @@ INSERT INTO `unix_commands` (`id`, `command`, `usage`, `manPageLink`) VALUES
 --
 -- Table structure for table `users`
 --
--- Creation: Nov 23, 2011 at 01:37 AM
---
 
-DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `username` varchar(20) NOT NULL DEFAULT '',
   `password` varchar(50) NOT NULL,
