@@ -1,6 +1,7 @@
+
 <?php 
 	// Bring in the beginning section template
-	include('/page_parts/header_parts/beginning.php'); 
+	include('../header_parts/beginning.php'); 
 ?>
 
 <div id="content_padding">
@@ -16,7 +17,7 @@
 			<?php 
 				// Connect and select the Unix database
 				// if connection fails, the program fails.	
-				include('/sql/db_connect.php');
+				include('../../sql/db_connect.php');
 				
 				//get all data from db
 				
@@ -53,5 +54,5 @@
 
 <?php 
 	// Bring in the end section template
-	include('/page_parts/header_parts/end.php'); 
+	include('../header_parts/end.php'); 
 ?>
