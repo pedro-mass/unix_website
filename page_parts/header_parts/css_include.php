@@ -4,16 +4,16 @@
 			
 			// TODO
 			// make the list of css pages into an array
-			$css_pages = new ArrayObject();
+			$css_pages = array();
 
-			$css_pages.push('css/index.css');
-			$css_pages.push('css/content.css');
-			$css_pages.push('css/sidebar.css');
-			$css_pages.push('css/terminal.css');
-			$css_pages.push('css/nav_global.css');
-			$css_pages.push('css/nav_local.css');
-			$css_pages.push('css/accordian.css');
-			$css_pages.push('css/tutorials.css');
+			array_push($css_pages, 'css/index.css');
+			array_push($css_pages, 'css/content.css');
+			array_push($css_pages, 'css/sidebar.css');
+			array_push($css_pages, 'css/terminal.css');
+			array_push($css_pages, 'css/nav_global.css');
+			array_push($css_pages, 'css/nav_local.css');
+			array_push($css_pages, 'css/accordian.css');
+			array_push($css_pages, 'css/tutorials.css');
 			
 			// loop over the css pages
 			foreach ($css_pages as $css){
