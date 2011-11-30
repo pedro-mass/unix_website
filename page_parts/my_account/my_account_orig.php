@@ -1,30 +1,22 @@
 	<div id="content_padding">
 		<h1>Account</h1>
 		<?php
+			// Check to see if the user is already logged in		
 			if(isset($_COOKIE['username1'])){ //check to see if user is logged in
 				getInfo();
 			}
-			
+			// Function gathers and displays the user's infor
 			function getInfo(){
-				/*	Display users info		 */
-				$db_host="localhost";
-				$db_user="409_team_su";
-				$db_pswd="fr1end";
+				// Connect and select the Unix database
+				// if connection fails, the program fails.	
+				include('db_connect.php');
 				
-				$db_connect = mysql_connect($db_host,$db_user,$db_pswd); //hook up to my db
-				if (!$db_connect) {
-					echo "Error connecting to database";
-					die();
-				}
 				
-				//stop sql injection for $_GET
-				
-				//stop sql injection for $_POST
-				
-				mysql_select_db("409_team_su");
-				
+				// create the query
 				$query="SELECT * FROM users WHERE username='".$_COOKIE['username1']."'";
+				// run the query
 				$userRes=mysql_query($query);
+				// echo the results
 				echo "<h3>Your Information:</h3>";
 				echo "<p>Username: ".mysql_result($userRes,0,"username")."</p>";
 				echo "<p>Password: ".mysql_result($userRes,0,"password")."</p>";
@@ -46,10 +38,12 @@
 		?>
 		
 		<?php
+			// Check if the user is logged in
 			if(isset($_COOKIE['username1'])){
+				// setup some link variables
 				$href="welcome.php?page=page_parts/my_account/logout.php&side=tutorial";
 				$onclick="swapMain('page_parts/my_account/logout.php');";
-				
+				// create a link
 				echo '<a href="'.$href.'" onclick="'.$onclick.'">Logout</a>';
 			}
 			else{
@@ -59,8 +53,8 @@
 				
 				echo"<br />";
 				
-				$href="welcome.php?page=page_parts/my_account/accounts.php&side=tutorial";
-				$onclick="swapMain('page_parts/my_account/accounts.php');";
+				$href="/page_parts/my_account/accounts.php";
+				$onclick="window.location = '/page_parts/my_account/accounts.php';";
 				echo '<a href="'.$href.'" onclick="'.$onclick.'">Register</a>';
 			}
 		?>

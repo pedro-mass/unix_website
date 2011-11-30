@@ -2,6 +2,9 @@
  * @author drom296
  */
 
+// Store the baseURL of the website to be able to use absolute positioning from now on
+var baseURL = "/409_unix_site/";
+
 /**
  * Returns functions needed on page setup
  */

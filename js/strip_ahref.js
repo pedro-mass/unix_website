@@ -1,7 +1,7 @@
 // store a listing of our main pages used for processing
 var basePages = new Array("WELCOME.PHP","UNIX.PHP");
 // string to replace the hrefs with
-var replaceWith = "#";
+var replaceWith = "javascript:void();";
 
 
 function stripATags(){

@@ -7,6 +7,10 @@ var mainContentDivID = "content_target_inner";
 // stores the terminal link's id
 var termLinkID = "onOffTermLink";
 
+// check to see if the baseURL variable is set
+// if not, set it
+// var baseURL = "/409_unix_site/";
+
 /*
  * Swaps the "content_target_inner" div with the mainContentPage
  */
@@ -64,7 +68,15 @@ function swapElem(pageName, elementId, lterm){
   // http://www.openjs.com/articles/ajax_xmlhttp_using_post.php
   
   var params ="page="+pageName;
-  xmlHttp.open("GET", "load_page.php"+"?"+params, true); 
+	// Make use of a baseURL to enforce root relational links
+	
+	// Check if the baseURL is undefined
+	if (typeof baseURL=="undefined"){
+		// setup a default
+		baseURL = "/";
+	}
+
+  xmlHttp.open("GET", baseURL+"load_page.php"+"?"+params, true); 
   xmlHttp.send(null);
 }
 
@@ -98,19 +110,6 @@ function getXMLHttp(){
   }
   return xmlHttp;
 }
-
-// Loads the response from the server in the specified elementId
-// Also strips out the a href 
-/**
-function handleResponse(response, elementId, lterm){
-  document.getElementById(elementId).innerHTML = response;
-  stripATags();
-  
-  if(lterm){
-  	termOpen();
-  }
-}
-**/
 
 // Loads the response from the server in the specified elementId
 // Also strips out the a href 
