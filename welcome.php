@@ -4,13 +4,14 @@
 ?>
 
 <!--  Content Section -->
-							<?php 
-								$pageName = '/page_parts/home/home.php';
-								if (isset($_GET['page'])){
-									$pageName =$_GET['page'];
-								}
-								include_once($pageName); 
+	<?php 
+		$pageName = '/page_parts/home/home.php';
+		if (isset($_GET['page'])){
+			$pageName =$_GET['page'];
+		}
+		include_once($pageName); 
 							?>
+
 <!--  Content Section -->							
 
 <?php 

@@ -6,13 +6,13 @@
 		<p>
 			Please select a tutorial on the right to begin your lesson. You can progress sequentially, or jump straight to your lesson of choice.
 		</p>
-
 	</div>
 
 	<div id="right_content">
 		<ul class="accordian">
 			<li id="tut1">
 				<h2><a id="tut1link" onclick="listOpen('tut1','tut1link', '150px')">Beginner Tutorials</a></h2>
+
 				<ul>
 					<li><a href='unix.php?page=page_parts/tutorials/beginner/file_system/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/file_system/tutorial_template.php');">File System</a></li>
 					<li><a href='unix.php?page=page_parts/tutorials/beginner/shell_nav/tutorial_template.php&side=tutorial' onclick="swapMainTerm('page_parts/tutorials/beginner/shell_nav/tutorial_template.php');">Shell Navigation</a></li></li>

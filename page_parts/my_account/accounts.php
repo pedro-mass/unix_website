@@ -108,4 +108,3 @@ echo " results:".mysql_num_rows($userRes)."</p>";
 
 	</body>
 </html>
-

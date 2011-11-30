@@ -1,12 +1,10 @@
 	<div id="content_padding">
 		<h1>Account</h1>
-		
 		<?php
 			// Check to see if the user is already logged in		
 			if(isset($_COOKIE['username1'])){ //check to see if user is logged in
 				getInfo();
 			}
-			
 			// Function gathers and displays the user's infor
 			function getInfo(){
 				// Connect and select the Unix database

@@ -68,7 +68,6 @@ function swapElem(pageName, elementId, lterm){
   // http://www.openjs.com/articles/ajax_xmlhttp_using_post.php
   
   var params ="page="+pageName;
-
 	// Make use of a baseURL to enforce root relational links
 	
 	// Check if the baseURL is undefined
@@ -111,19 +110,6 @@ function getXMLHttp(){
   }
   return xmlHttp;
 }
-
-// Loads the response from the server in the specified elementId
-// Also strips out the a href 
-/**
-function handleResponse(response, elementId, lterm){
-  document.getElementById(elementId).innerHTML = response;
-  stripATags();
-  
-  if(lterm){
-  	termOpen();
-  }
-}
-**/
 
 // Loads the response from the server in the specified elementId
 // Also strips out the a href 
